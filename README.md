@@ -14,6 +14,7 @@ PURPOSE: Generate mathematical animation videos from prompts
 ARCHITECTURE: Multi-agent system with code generation, review, and execution
 
 BEGIN Workflow
+
     INPUT: user_text_prompt
     
     STEP 1: Code Generation Phase
