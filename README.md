@@ -3,8 +3,14 @@ Manim Math Educational Video Generator - Pseudocode
 
 
 System Overview
+
+
 SYSTEM: Manim Math Educational Video Generator
+
+
 PURPOSE: Generate mathematical animation videos from prompts
+
+
 ARCHITECTURE: Multi-agent system with code generation, review, and execution
 
 
