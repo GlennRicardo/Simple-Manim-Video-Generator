@@ -13,9 +13,7 @@ PURPOSE: Generate mathematical animation videos from prompts
 
 ARCHITECTURE: Multi-agent system with code generation, review, and execution
 
-
-Main Workflow
-BEGIN MainWorkflow
+BEGIN Workflow
     INPUT: user_text_prompt
     
     STEP 1: Code Generation Phase
@@ -31,4 +29,5 @@ BEGIN MainWorkflow
         DISPLAY video_file in Gradio interface
         
     OUTPUT: generated_video.mp4
-END MainWorkflow
+    
+END Workflow
