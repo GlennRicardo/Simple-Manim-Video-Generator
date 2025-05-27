@@ -13,22 +13,22 @@ PURPOSE: Generate mathematical animation videos from prompts
 
 ARCHITECTURE: Multi-agent system with code generation, review, and execution
 
-BEGIN Workflow
+    BEGIN Workflow
 
-    INPUT: user_text_prompt
+        INPUT: user_text_prompt
     
-    STEP 1: Code Generation Phase
-        CALL CodeBuilder(user_prompt) → raw_manim_code
+        STEP 1: Code Generation Phase
+            CALL CodeBuilder(user_prompt) → raw_manim_code
     
-    STEP 2: Code Review Phase  
-        CALL CodeReviewer(raw_manim_code) → optimized_manim_code
+        STEP 2: Code Review Phase  
+            CALL CodeReviewer(raw_manim_code) → optimized_manim_code
     
-    STEP 3: Code Execution Phase
-        CALL ExecuteCode(optimized_manim_code) → video_file
+        STEP 3: Code Execution Phase
+            CALL ExecuteCode(optimized_manim_code) → video_file
     
-    STEP 4: Video Delivery
-        DISPLAY video_file in Gradio interface
+        STEP 4: Video Delivery
+            DISPLAY video_file in Gradio interface
         
-    OUTPUT: generated_video.mp4
+        OUTPUT: generated_video.mp4
     
-END Workflow
+    END Workflow
